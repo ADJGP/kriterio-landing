@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kriterio — Tu opinión tiene valor | App de Reseñas, Valoraciones y Recompensas</title>
+  <meta name="description" content="Kriterio es la app donde tu opinión vale. Descubre negocios, comparte reseñas auténticas, acumula puntos y gana recompensas. Dashboard de analytics con IA para negocios.">
+  <meta name="keywords" content="reseñas, valoraciones, negocios, puntos, recompensas, analytics, IA, Kriterio">
+  <meta property="og:title" content="Kriterio — Tu opinión tiene valor">
+  <meta property="og:description" content="App de reseñas y valoraciones con sistema de puntos y recompensas. Dashboard de analytics con IA para negocios.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="logos/icono.png">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="logos/logo.png" alt="Kriterio Logo" id="navbar-logo">
+      </a>
+      <ul class="navbar-nav" id="navbar-nav">
+        <li><a href="#que-es">¿Qué es?</a></li>
+        <li><a href="#usuarios">Usuarios</a></li>
+        <li><a href="#negocios">Negocios</a></li>
+        <li><a href="#force-decision">Force Decision</a></li>
+        <li><a href="#como-funciona">Cómo funciona</a></li>
+        <li><a href="#recompensas">Recompensas</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="#cta" class="btn btn-primary">Únete</a>
+      </div>
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero section" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-pattern"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Próximamente disponible
+        </div>
+        <h1>
+          Tu opinión tiene<br>
+          <span class="text-gradient highlight">valor real</span>
+        </h1>
+        <p class="hero-subtitle">
+          Descubre negocios, comparte experiencias auténticas y gana recompensas. 
+          Con Kriterio, cada reseña te acerca a premios exclusivos mientras ayudas a otros a tomar mejores decisiones.
+        </p>
+        <div class="hero-actions">
+          <form class="hero-email-form" id="hero-form">
+            <input type="email" placeholder="Tu correo electrónico" required id="hero-email-input">
+            <button type="submit" class="btn btn-primary" id="hero-submit-btn">Únete a la lista</button>
+          </form>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="stat-number" data-count="2500">0</span>
+            <span class="stat-label">En lista de espera</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-number" data-count="150">0</span>
+            <span class="stat-label">Negocios registrados</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-number" data-count="12">0</span>
+            <span class="stat-label">Ciudades</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="glow-ring"></div>
+        <div class="glow-ring"></div>
+        <div class="glow-ring"></div>
+        <img src="assets/app_mockup.png" alt="Kriterio App - Descubre negocios y comparte reseñas" class="hero-mockup" id="hero-mockup">
+        <div class="floating-badge badge-top-left">
+          <span class="badge-icon">⭐</span>
+          <span>+50 puntos</span>
+        </div>
+        <div class="floating-badge badge-top-right">
+          <span class="badge-icon">🏆</span>
+          <span>Ranking #12</span>
+        </div>
+        <div class="floating-badge badge-bottom-left">
+          <span class="badge-icon">🎁</span>
+          <span>Recompensa desbloqueada</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ¿QUÉ ES KRITERIO?
+       ============================================ -->
+  <section class="what-is section" id="que-es">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          La plataforma
+        </span>
+        <h2>¿Qué es <span class="text-gradient">Kriterio</span>?</h2>
+        <p>Una plataforma que transforma tu opinión en valor real. Conectamos consumidores con negocios a través de reseñas auténticas, un sistema de recompensas y analytics potenciados por inteligencia artificial.</p>
+      </div>
+      <div class="pillars-grid reveal-stagger">
+        <div class="glass-card pillar-card">
+          <span class="pillar-number">01</span>
+          <div class="pillar-icon">📝</div>
+          <h3>Reseñas Auténticas</h3>
+          <p>Comparte experiencias reales sobre negocios, productos y servicios. Tu voz importa y guía a la comunidad.</p>
+        </div>
+        <div class="glass-card pillar-card">
+          <span class="pillar-number">02</span>
+          <div class="pillar-icon">📊</div>
+          <h3>Puntos y Ranking</h3>
+          <p>Cada reseña suma puntos. Escala en el ranking, gana visibilidad y conviértete en un referente de tu comunidad.</p>
+        </div>
+        <div class="glass-card pillar-card">
+          <span class="pillar-number">03</span>
+          <div class="pillar-icon">🎁</div>
+          <h3>Recompensas</h3>
+          <p>Canjea tus puntos por cupones de descuento, promociones exclusivas y premios sorpresa de tus negocios favoritos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PARA USUARIOS
+       ============================================ -->
+  <section class="for-users section" id="usuarios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Para consumidores
+        </span>
+        <h2>Explora, opina y <span class="text-gradient">gana</span></h2>
+        <p>Descubre los mejores negocios cerca de ti, comparte tus experiencias y recibe recompensas por cada opinión que compartas.</p>
+      </div>
+      <div class="features-layout">
+        <div class="features-list reveal-left">
+          <div class="feature-item">
+            <div class="feature-icon">🔍</div>
+            <div>
+              <h4>Explora negocios cercanos</h4>
+              <p>Encuentra restaurantes, tiendas y servicios valorados por la comunidad con un sistema de geolocalización inteligente.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">✍️</div>
+            <div>
+              <h4>Comparte reseñas</h4>
+              <p>Escribe valoraciones detalladas sobre tu experiencia con la atención, calidad de productos y servicios recibidos.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">⭐</div>
+            <div>
+              <h4>Acumula puntos</h4>
+              <p>Cada reseña que publicas te otorga puntos que te ayudan a subir en el ranking de la comunidad Kriterio.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🏅</div>
+            <div>
+              <h4>Sube en el ranking</h4>
+              <p>Posiciónate entre los mejores reviewers y gana reconocimiento, badges exclusivos y acceso prioritario a recompensas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="features-mockup reveal-right">
+          <img src="assets/app_mockup.png" alt="Kriterio App - Interfaz de exploración de negocios" id="users-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PARA NEGOCIOS
+       ============================================ -->
+  <section class="for-business section" id="negocios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+          Para negocios
+        </span>
+        <h2>Haz crecer tu negocio con <span class="text-gradient">datos reales</span></h2>
+        <p>Registra tu comercio, conecta con clientes reales y obtén insights valiosos para tomar mejores decisiones de negocio.</p>
+      </div>
+      <div class="business-features-grid reveal-stagger">
+        <div class="glass-card business-feature-card">
+          <div class="card-icon">🏪</div>
+          <h4>Registra tu comercio</h4>
+          <p>Crea el perfil de tu negocio con todos tus productos y servicios. Muestra tu catálogo completo a miles de potenciales clientes.</p>
+        </div>
+        <div class="glass-card business-feature-card">
+          <div class="card-icon">✅</div>
+          <h4>Validación de identidad</h4>
+          <p>Proceso de verificación jurídica que respalda a los verdaderos dueños del negocio. Badge de verificación que genera confianza.</p>
+        </div>
+        <div class="glass-card business-feature-card">
+          <div class="card-icon">📦</div>
+          <h4>Gestiona productos y servicios</h4>
+          <p>Registra, actualiza y administra tu catálogo completo. Los usuarios podrán valorar cada producto o servicio de forma individual.</p>
+        </div>
+        <div class="glass-card business-feature-card">
+          <div class="card-icon">💬</div>
+          <h4>Feedback real de clientes</h4>
+          <p>Accede a reseñas y valoraciones auténticas de tus clientes. Conoce qué opinan de tu atención, productos y servicios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       KRITERIO FORCE DECISION
+       ============================================ -->
+  <section class="force-decision section" id="force-decision">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="force-decision-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Powered by AI
+        </span>
+        <h2>Kriterio <span class="text-gradient">Force Decision</span></h2>
+        <p>El dashboard de inteligencia empresarial que transforma datos en decisiones. Con IA avanzada, analiza KPIs críticos, mide tu posicionamiento y compárate con la competencia. Disponible mediante suscripción.</p>
+      </div>
+      <div class="fd-content">
+        <div class="fd-mockup reveal-left">
+          <img src="assets/dashboard_mockup.png" alt="Kriterio Force Decision - Dashboard de Analytics con IA" id="fd-mockup-img">
+        </div>
+        <div class="fd-features reveal-right">
+          <div class="fd-feature">
+            <div class="fd-icon">📈</div>
+            <div>
+              <h4>KPIs evaluados por IA</h4>
+              <p>Métricas clave de satisfacción, tendencias de reseñas, análisis de sentimiento y posicionamiento competitivo analizados con inteligencia artificial.</p>
+            </div>
+          </div>
+          <div class="fd-feature">
+            <div class="fd-icon">🔄</div>
+            <div>
+              <h4>Análisis de datos en tiempo real</h4>
+              <p>Monitorea el desempeño de tu negocio y productos con datos actualizados que reflejan la percepción real de tus clientes.</p>
+            </div>
+          </div>
+          <div class="fd-feature">
+            <div class="fd-icon">⚔️</div>
+            <div>
+              <h4>Comparativas competitivas</h4>
+              <p>Mide tu negocio contra tu competencia más cercana. Identifica fortalezas, debilidades y oportunidades de mejora.</p>
+            </div>
+          </div>
+          <div class="fd-feature">
+            <div class="fd-icon">🎯</div>
+            <div>
+              <h4>Decisiones basadas en datos</h4>
+              <p>Accede a insights accionables que garantizan un posicionamiento real tanto de tu negocio como de tus productos y servicios.</p>
+            </div>
+          </div>
+          <div class="fd-feature">
+            <div class="fd-icon">👑</div>
+            <div>
+              <h4>Plan de suscripción premium</h4>
+              <p>Desbloquea todo el poder de Force Decision con planes diseñados para gerentes y directores que buscan liderazgo basado en datos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CÓMO FUNCIONA
+       ============================================ -->
+  <section class="how-it-works section" id="como-funciona">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Paso a paso
+        </span>
+        <h2>Así de fácil <span class="text-gradient">funciona</span></h2>
+        <p>En cinco simples pasos, comienza a transformar tu opinión en recompensas reales.</p>
+      </div>
+      <div class="steps-timeline reveal-stagger">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div>
+            <div class="step-icon">👤</div>
+            <h4>Crea tu cuenta</h4>
+            <p>Regístrate en segundos con tu email o redes sociales. Tu perfil de reviewer comienza aquí.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div>
+            <div class="step-icon">🗺️</div>
+            <h4>Explora negocios</h4>
+            <p>Descubre comercios y servicios cerca de ti filtrados por categoría, distancia y valoración.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div>
+            <div class="step-icon">✍️</div>
+            <h4>Comparte tu experiencia</h4>
+            <p>Escribe reseñas detalladas sobre la atención, calidad y servicio que recibiste.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <div>
+            <div class="step-icon">🚀</div>
+            <h4>Acumula y sube</h4>
+            <p>Gana puntos por cada reseña y escala posiciones en el ranking de la comunidad.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-number">5</div>
+          <div>
+            <div class="step-icon">🎁</div>
+            <h4>Canjea recompensas</h4>
+            <p>Usa tus puntos para obtener descuentos, promociones y premios sorpresa exclusivos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SISTEMA DE PUNTOS Y RECOMPENSAS
+       ============================================ -->
+  <section class="rewards section" id="recompensas">
+    <div class="container">
+      <div class="rewards-layout">
+        <div class="rewards-content reveal-left">
+          <span class="section-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Recompensas
+          </span>
+          <h2>Tu opinión se convierte en <span class="text-gradient">recompensas</span></h2>
+          <p>Cada reseña que escribes acumula puntos en tu cuenta. Mientras más aportes, más ganas. Canjea tus puntos por increíbles beneficios.</p>
+          <div class="reward-types">
+            <div class="reward-type">
+              <span class="reward-emoji">🏷️</span>
+              <div>
+                <h4>Cupones de descuento</h4>
+                <p>Descuentos exclusivos en tus negocios favoritos.</p>
+              </div>
+            </div>
+            <div class="reward-type">
+              <span class="reward-emoji">🔥</span>
+              <div>
+                <h4>Promociones especiales</h4>
+                <p>Acceso anticipado a ofertas y promociones limitadas.</p>
+              </div>
+            </div>
+            <div class="reward-type">
+              <span class="reward-emoji">🎉</span>
+              <div>
+                <h4>Premios sorpresa</h4>
+                <p>Sorpresas exclusivas por tu contribución a la comunidad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rewards-visual reveal-right">
+          <img src="assets/rewards_mockup.png" alt="Sistema de recompensas Kriterio" id="rewards-mockup-img">
+        </div>
+      </div>
+
+      <!-- Ranking Levels -->
+      <div class="ranking-levels reveal-stagger">
+        <div class="rank-card">
+          <div class="rank-icon">🥉</div>
+          <div class="rank-name">Explorador</div>
+          <div class="rank-points">0 — 500 pts</div>
+        </div>
+        <div class="rank-card">
+          <div class="rank-icon">🥈</div>
+          <div class="rank-name">Conocedor</div>
+          <div class="rank-points">501 — 2,000 pts</div>
+        </div>
+        <div class="rank-card">
+          <div class="rank-icon">🥇</div>
+          <div class="rank-name">Experto</div>
+          <div class="rank-points">2,001 — 5,000 pts</div>
+        </div>
+        <div class="rank-card">
+          <div class="rank-icon">👑</div>
+          <div class="rank-name">Leyenda</div>
+          <div class="rank-points">5,001+ pts</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CALL TO ACTION FINAL
+       ============================================ -->
+  <section class="cta-section section" id="cta">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <h2>Sé de los primeros en <span class="text-gradient">Kriterio</span></h2>
+        <p>Únete a la lista de espera y obtén acceso anticipado cuando lancemos. Tu opinión está a punto de valer mucho más.</p>
+        <form class="cta-form" id="cta-form">
+          <input type="email" placeholder="Tu correo electrónico" required id="cta-email-input">
+          <button type="submit" class="btn btn-primary" id="cta-submit-btn">Quiero acceso</button>
+        </form>
+        <div class="cta-counter">
+          <span class="counter-number" data-count="2547" id="cta-counter-number">0</span>
+          <span>personas ya se unieron</span>
+        </div>
+        <div class="cta-social">
+          <a href="#" aria-label="Instagram" id="social-instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter / X" id="social-twitter">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok" id="social-tiktok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1 0-5.78 2.92 2.92 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.57 6.33 6.33 0 0 0 9.37 22a6.33 6.33 0 0 0 6.38-6.2V9.06a8.16 8.16 0 0 0 3.84.96V6.69z"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn" id="social-linkedin">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <img src="logos/icono.png" alt="Kriterio">
+        <span style="font-family: var(--font-heading); font-weight: 700; font-size: 1.1rem;">Kriterio</span>
+      </div>
+      <div class="footer-links">
+        <a href="#" id="footer-privacy">Privacidad</a>
+        <a href="#" id="footer-terms">Términos</a>
+        <a href="#" id="footer-contact">Contacto</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Kriterio. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
